@@ -12,3 +12,4 @@ class DepartamentoSerializerListAPIView(GeneralListAPIView):
     def get_queryset(self):
         return self.serializer_class.Meta.model.objects.filter(status = True)
     
+    
