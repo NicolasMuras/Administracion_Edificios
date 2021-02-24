@@ -40,10 +40,20 @@
         {{ comp.name|upper }}<br> {{ comp.ruc }}<br> {{ comp.address|upper }}
     </p>
     <p>
-        <b>FACTURA:</b> {{ sale.id }}<br>
-        <b>FECHA DE VENTA:</b> {{ sale.date_joined }}<br>
-        <b>CLIENTE:</b> {{ sale.cli.names|upper }}<br>
-        <b>DNI:</b> {{ sale.cli.dni }}<br>
+
+        <b>EXPENSAS PURAS:</b> {{ expensas_puras }}<br>
+        <b>INTERESES MORA:</b> {{ intereses_mora }}<br>
+        <b>MATERIALES LIMPIEZA:</b> {{ materiales_limpieza }}<br>
+        <b>SERVICIOS LUZ:</b> {{ servicios_luz }}<br>
+        <b>SUELDO ADMINISTRADOR:</b> {{ sueldo_administrador }}<br>
+        <b>ASCENSORES:</b> {{ ascensores }}<br>
+        <b>APORTES ENCARGADO LIMPIEZA:</b> {{ aportes_encargado_limpieza }}<br>
+        <b>SUELDO ENCARGADO LIMPIEZA:</b> {{ sueldo_encargado_limpieza }}<br>
+        <b>SEGURO EDIFICIO:</b> {{ seguro_edificio }}<br>
+        <b>SUELDO ANUAL COMPLEMENTARIO:</b> {{ sueldo_anual_complementario }}<br>
+        <b>TOTAL GASTOS:</b> {{ total_gastos }}<br>
+        <b>DEPARTAMENTO EXPENSA:</b> {{ departamento_expensa }}<br>
+
     </p>
     <table id="invoice">
         <thead>
